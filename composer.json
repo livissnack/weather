@@ -2,10 +2,13 @@
     "name": "livissnack/weather",
     "description": "A weather SDK",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "livissnack",
-            "email": "brucesnack@outlook.com"
+            "email": "brucesnack@outlook.com",
+            "homepage": "https://www.doniai.com",
+            "role": "Developer"
         }
     ],
     "autoload": {
@@ -28,5 +31,6 @@
         "guzzlehttp/guzzle": "^6.3",
         "mockery/mockery": "^1.1",
         "phpunit/phpunit": "~5"
-    }
+    },
+    "time": "2018-08-21"
 }
