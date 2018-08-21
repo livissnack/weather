@@ -108,3 +108,4 @@ public function edit()
 ## License
 
 MIT
+the MIT License, http://magicdawn.mit-license.org
