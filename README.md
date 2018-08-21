@@ -17,7 +17,6 @@ $ composer require livissnack/weather:dev-master
 在使用本拓展之前，你需要去 [百度地图](http://lbsyun.baidu.com/index.php?title=car/api/weather) 注册账号，然后创建应用，获取应用的 `ak` 值
 
 ## 使用
-## 使用
 
 ```php
 use Livissnack\Weather\Weather;
@@ -48,7 +47,7 @@ $response = $weather->getWeather('116.306411,39.981839', 'json', 'bd09ll');
 ### 参数说明
 
 ```
-array | string   getWeather(string $location, string $format = 'json', string $coordType = null)
+array | string  getWeather(string $location, string $format = 'json', string $coordType = null)
 ```
 
 > 参数说明：
@@ -65,10 +64,10 @@ array | string   getWeather(string $location, string $format = 'json', string $c
 	.
 	.
 	.
-	 'weather' => [
-        'ak' => env('BAIDU_WEATHER_AK'),
-        'sn' => env('BAIDU_WEATHER_SN'), 
-    ],
+	'weather' => [
+            'ak' => env('BAIDU_WEATHER_AK'),
+            'sn' => env('BAIDU_WEATHER_SN'), 
+        ],
 ```
 
 然后在 `.env` 中配置（`BAIDU_WEATHER_SN` 为可选）：
@@ -96,11 +95,10 @@ public function edit(Weather $weather)
 #### 服务名访问
 
 ```php
-	public function edit() 
-	{
-		$response = app('weather')->get('深圳');
-	}
-
+public function edit() 
+{
+    $response = app('weather')->get('深圳');
+}
 ```
 
 ## 参考
