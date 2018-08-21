@@ -106,6 +106,4 @@ public function edit()
 - [百度地图天气接口](http://lbsyun.baidu.com/index.php?title=car/api/weather)
 
 ## License
-
-MIT
-the MIT License, http://magicdawn.mit-license.org
+the MIT License, http://livissnack.mit-license.org
