@@ -3,7 +3,7 @@
 
 <p align="center">:rainbow: 基于百度地图接口的 PHP 天气信息组件。</p>
 
-[![Build Status](https://travis-ci.org/livissnack/weather.svg?branch=master)](https://travis-ci.org/Livissnack/weather) 
+[![Build Status](https://travis-ci.org/livissnack/weather.svg?branch=master)](https://travis-ci.org/livissnack/weather)
 ![StyleCI build status](https://github.styleci.io/repos/144818004/shield)  
 
 ## 安装
