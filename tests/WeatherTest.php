@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * This file is part of the livissnack/weather.
+ *
+ * (c) livissnack <brucesnack@outlook.com>
+ *
+ * This source file is subject to the MIT license that is bundled with this source code in the file LICENSE.
+ */
+
 namespace Livissnack\Weather\Tests;
 
 use Livissnack\Weather\Exceptions\HttpException;
@@ -10,7 +18,6 @@ use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
 use Mockery\Matcher\AnyArgs;
 use GuzzleHttp\Client;
-
 
 class WeatherTest extends TestCase
 {
@@ -24,7 +31,7 @@ class WeatherTest extends TestCase
                 'ak' => 'mock-ak',
                 'location' => '深圳',
                 'output' => 'json',
-            ]
+            ],
         ])->andReturn($response);
 
         $w = \Mockery::mock(Weather::class, ['mock-ak'])->makePartial();
@@ -40,7 +47,7 @@ class WeatherTest extends TestCase
                 'ak' => 'mock-ak',
                 'location' => '深圳',
                 'output' => 'xml',
-            ]
+            ],
         ])->andReturn($response);
 
         $w = \Mockery::mock(Weather::class, ['mock-ak'])->makePartial();
