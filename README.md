@@ -5,6 +5,8 @@
 
 [![Build Status](https://travis-ci.org/livissnack/weather.svg?branch=master)](https://travis-ci.org/livissnack/weather)
 ![StyleCI build status](https://github.styleci.io/repos/144818004/shield)  
+[![Issues](https://img.shields.io/github/issues/livissnack/weather.svg)](https://github.com/livissnack/weather/issues)
+[![Forks](https://img.shields.io/github/forks/livissnack/weather.svg)]
 
 ## 安装
 
