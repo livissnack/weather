@@ -20,6 +20,10 @@
             ]
         }
     },
+    "bugs": {
+        "url": "https://github.com/livissnack/weather/issues"
+    },
+    "homepage": "https://github.com/livissnack/weather",
     "require": {
         "guzzlehttp/guzzle": "^6.3",
         "mockery/mockery": "^1.1",
