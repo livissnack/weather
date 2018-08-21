@@ -9,7 +9,7 @@
 ## 安装
 
 ```sh
-$ composer require livissnack/weather:dev-master
+$ composer require livissnack/weather
 ```
 
 ## 配置
